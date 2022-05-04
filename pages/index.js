@@ -3,6 +3,7 @@ import Image from "next/image";
 import Featured from "../components/Featured";
 import styles from "../styles/Home.module.css";
 import { Fragment } from "react/cjs/react.production.min";
+import PizzaList from "../components/PizzaList";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Featured />
+      <PizzaList />
     </Fragment>
   );
 }
